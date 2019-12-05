@@ -1,0 +1,8 @@
+################### {Beat} Configuration Example #########################
+
+############################# {Beat} ######################################
+
+weatherbeat:
+  # Defines how often an event is sent to the output
+  period: 30m
+  data.feed.url: "http://reg.bom.gov.au/fwo/IDS60901/IDS60901.94672.json"

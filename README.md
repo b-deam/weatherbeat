@@ -1,18 +1,19 @@
-# {Beat}
+# weatherbeat
 
-Welcome to {Beat}.
+Welcome to weatherbeat.
 
 Ensure that this folder is at the following location:
 `${GOPATH}/src/github.com/b-deam/weatherbeat`
 
-## Getting Started with {Beat}
+## Getting Started with weatherbeat
 
 ### Requirements
 
-* [Golang](https://golang.org/dl/) 1.7
+- [Golang](https://golang.org/dl/) 1.13
 
 ### Init Project
-To get running with {Beat} and also install the
+
+To get running with weatherbeat and also install the
 dependencies, run the following command:
 
 ```
@@ -21,7 +22,7 @@ make setup
 
 It will create a clean git history for each major step. Note that you can always rewrite the history if you wish before pushing your changes.
 
-To push {Beat} in the git repository, run the following commands:
+To push weatherbeat in the git repository, run the following commands:
 
 ```
 git remote set-url origin https://github.com/b-deam/weatherbeat
@@ -32,32 +33,31 @@ For further development, check out the [beat developer guide](https://www.elasti
 
 ### Build
 
-To build the binary for {Beat} run the command below. This will generate a binary
+To build the binary for weatherbeat run the command below. This will generate a binary
 in the same directory with the name weatherbeat.
 
 ```
 make
 ```
 
-
 ### Run
 
-To run {Beat} with debugging output enabled, run:
+To run weatherbeat with debugging output enabled, run:
 
 ```
 ./weatherbeat -c weatherbeat.yml -e -d "*"
 ```
 
-
 ### Test
 
-To test {Beat}, run the following command:
+To test weatherbeat, run the following command:
 
 ```
 make testsuite
 ```
 
 alternatively:
+
 ```
 make unit-tests
 make system-tests
@@ -76,10 +76,9 @@ which is automatically generated based on `fields.yml` by running the following 
 make update
 ```
 
-
 ### Cleanup
 
-To clean  {Beat} source code, run the following command:
+To clean weatherbeat source code, run the following command:
 
 ```
 make fmt
@@ -91,19 +90,16 @@ To clean up the build directory and generated artifacts, run:
 make clean
 ```
 
-
 ### Clone
 
-To clone {Beat} from the git repository, run the following commands:
+To clone weatherbeat from the git repository, run the following commands:
 
 ```
 mkdir -p ${GOPATH}/src/github.com/b-deam/weatherbeat
 git clone https://github.com/b-deam/weatherbeat ${GOPATH}/src/github.com/b-deam/weatherbeat
 ```
 
-
 For further development, check out the [beat developer guide](https://www.elastic.co/guide/en/beats/libbeat/current/new-beat.html).
-
 
 ## Packaging
 
