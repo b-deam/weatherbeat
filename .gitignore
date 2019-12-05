@@ -1,5 +1,7 @@
 /.idea
 /build
+/logs
+.vscode
 
 .DS_Store
 /weatherbeat
